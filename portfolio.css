@@ -1,0 +1,106 @@
+body {
+    background-color: #061D1C;
+}
+header {
+    background-color: #061D1C;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 50px;
+}
+hr{
+    background-color:#9BF81D
+}
+.name {
+    font-family: comic sans ms, cursive;
+    color: #9BF81D;
+    font-size: 4em;
+    text-align: left;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.name2{
+    font-family: comic sans ms, cursive;
+    color: #9BF81D;
+    font-size: 1em;
+    margin-left: 200px;
+    margin-top:1px;
+}
+nav{text-align:right;
+    margin-top: 5px;
+
+}
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-family: helvetica, sans-serif;
+    font-size: 2em;
+}
+
+.currentnav{
+    color: #9BF81D;
+    text-decoration: underline; 
+}
+.button {
+    background-color: #9BF81D;
+    color: #061D1C;
+    padding: 10px;
+    text-align: center;
+    font-family: helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 2em;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.button1 {
+    border-radius: 30px;
+    transition: 0.5s;
+    border: none;
+}
+.button1:hover {
+    background-color: rgba(0, 255, 8, 0.436);
+    color: white;
+}
+.sociallogo{
+    margin-left:190px
+}
+.educationheading{
+    color: white;
+    text-align:center;
+    font-size: 4em;
+    font-family: gill sans, sans-serif;
+}
+.educationclassbutton{
+    background-color: white;
+    color: #061D1C;
+    padding: 10px;
+    text-align: center;
+    font-family: helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 2em;
+    margin-left: 170px;
+    margin-top: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.35s;
+}
+.educationclassbutton:hover {
+    background-color: #9BF81D;
+    color: white;
+}
+.educationgrades {
+    float: right;
+    margin-right:100px;
+    position: absolute;
+    top: 300px;
+    right: 350px;
+    border-radius: 10px;
+    HEIGHT:400PX
+  }
+.aboutname{
+    font-family: comic sans ms, cursive;
+    color: #9BF81D;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 10px;
+}
