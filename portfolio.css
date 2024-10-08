@@ -95,7 +95,8 @@ nav a {
     top: 300px;
     right: 350px;
     border-radius: 10px;
-    HEIGHT:400PX
+    HEIGHT:400PX;
+    width:650px;
   }
 .aboutname{
     font-family: comic sans ms, cursive;
