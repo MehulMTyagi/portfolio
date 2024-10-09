@@ -6,6 +6,57 @@
     <title>MehulTyagi</title>
     <link rel="icon" type="image/x-icon" href="favicon.png">
 <link rel="stylesheet" href="portfolio.css">
+<style> 
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px;
+    }
+    
+    .contact-form {
+        position:absolute;
+        top:300px;
+        left:650px;
+        width: 600px;
+    }
+    
+    .contact-form form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact-form input, 
+    .contact-form textarea {
+        background-color: #061D1C;
+        border: 2.5px solid white;
+        padding: 10px;
+        color: #fff;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+    
+    .contact-form input::placeholder,
+    .contact-form textarea::placeholder {
+        color: #9BF81D;
+        font-family: helvetica, sans-serif;
+        font-size: 1.4em;
+    }
+    
+    .contact-form button {
+        background-color: #9BF81D;
+        color: #061D1C;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        font-size: 1.4em;
+        border-radius: 10px;
+    }
+    
+    .contact-form button:hover {
+        background-color: rgba(0, 255, 8, 0.436);
+        color: white;
+    }
+    </style>
 </head>
 <body>
 <header>
@@ -20,12 +71,28 @@
 <hr>
 <img src="location.png"; class="locimg">
 <p class="location">location</p>
-<p class="locationtxt">greater noida, 201310</p>
+<a href="https://www.google.co.in/maps/place/Greater+Noida,+Uttar+Pradesh/@28.4977695,77.3687131,11.17z/data=!4m6!3m5!1s0x390cea64b8f89aef:0xec0ccabb5317962e!8m2!3d28.4743879!4d77.5039904!16zL20vMGN3OXEy?entry=ttu&g_ep=EgoyMDI0MTAwNS4yIKXMDSoASAFQAw%3D%3D" target="_blank" class="locationtxt">greater noida, 201310</a>
 <img src="mail.png"; class="mailimg">
 <p class="mail">E-MAIL</p>
 <a href="mailto:mehultyagi10@gmail.com"; class="mailtxt">mehultyagi10@gmail.com</a>
 <img src="call.png"; class="callimg">
 <p class="call">call</p>
 <p class="calltxt">9997309704</p>
+
+<div class="container">
+    <div class="contact-form">
+        <form>
+            <input type="text" id="name" name="name" placeholder="Name">
+    
+            <input type="email" id="email" name="email" placeholder="Email">
+            
+            <input type="tel" id="phone" name="phone" placeholder="phone no.">
+            
+            <textarea id="message" name="subject" placeholder="subject"></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
 </body>
 </html>
